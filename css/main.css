@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 #formacion-items h4:before {
   content: "";
   position: absolute;
@@ -10,14 +16,19 @@
   border-radius: 1rem;
 }
 
-/* prueba pa ve si anda el css */
-h2,
-h3,
-h4 {
-  color: blue;
+*,
+:after,
+:before {
+  box-sizing: border-box;
 }
 
-body {
-  background-color: blue;
-  color: red;
+/* ===============
+====== HABILIDADES = */
+
+.barras-progreso h5 {
+  margin: 0;
+}
+
+.barras-progreso h5:not(first-child) {
+  margin-top: 0.5rem;
 }

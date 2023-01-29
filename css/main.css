@@ -32,3 +32,15 @@
 .barras-progreso h5:not(first-child) {
   margin-top: 0.5rem;
 }
+
+/* ===============
+==== PROYECTOS ==== */
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  margin: 0.5rem;
+  transition: 0.3s;
+}
